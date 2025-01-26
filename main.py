@@ -1,6 +1,5 @@
-from src.masks import *
-from src.widget import *
-
+import src.masks
+import src.widget
 
 card_number = "Maestro 1596837868705199"
 card_number = "Счет 64686473678894779589"
@@ -15,8 +14,5 @@ card_number = "Счет 73654108430135874305"
 # print(s)  # **4305
 
 date_given = "2024-03-11T02:26:18.671407"
-s = get_date(date_given)
+s = src.widget.get_date(date_given)
 print(s)  # **4305
-
-
-
