@@ -1,5 +1,6 @@
 import src.masks
 
+
 def mask_account_card(card_number: str) -> str:
     """Функция маскирует номер карты"""
     lst = card_number.split()
