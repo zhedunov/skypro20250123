@@ -11,7 +11,7 @@ def mask_account_card(card_number: str) -> str:
             type_card_name = digit_quadres[0] + " " + digit_quadres[1] + " "
         else:
             type_card_name = digit_quadres[0] + " "
-        return "" + type_card_name + src.masks.get_mask_card_number(lst[-1])
+        return "" + type_card_name + src.masks.get_mask_card_number(digit_quadres[-1])
 
 
 def get_date(date_string: str) -> str:
