@@ -2,6 +2,7 @@ import src.masks
 
 
 def mask_account_card(card_number: str) -> str:
+    '''Функция маскирует номер счета или карты'''
     digit_quadres = card_number.split()
     # print(get_mask_card_number(lst[-1]))
     if card_number.startswith("Счет"):
